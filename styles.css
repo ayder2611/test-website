@@ -7,16 +7,15 @@
 
 .container1{
     background-color:#1F2937;
-    padding: 20px;
+    padding: 10px;
 }
 
 .header-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-end;
     color:#F9FAF8;
     padding: 16px;
-    margin: 0 auto;
 }
 
 .header-1{
@@ -40,14 +39,14 @@ a{
 
 .header-2{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 50px auto; 
 }
 
 .hero-main-text{
     display: flex;
     flex-direction: column;
-    width: 390px;
+    width: 330px;
     gap: 16px;
 }
 
@@ -79,10 +78,90 @@ button{
 
 .header-image{
     background-color: rgb(146, 143, 143);
-    width: 390px;
+    width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #F9FAF8;
     font-size: 18px;
+}
+
+.container2{
+    height: 400px;
+    padding: 20px;
+}
+
+.information-header-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.image1{
+    width: 200px;
+    
+}
+
+.image{
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.image1 p{
+    color:#1F2937;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container3{
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width:700px;
+}
+
+.container4{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.footer button{
+    border: 2px solid #F9FAF8;
 }
